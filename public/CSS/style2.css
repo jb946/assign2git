@@ -1,3 +1,7 @@
-h1{
+div{
 color: blue;
+}
+img{
+    float: right;
+    max-width: 20%
 }

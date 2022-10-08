@@ -5,9 +5,35 @@
     <link rel="stylesheet" href="/CSS/style.css" media="screen" meta="utf-8"/>
     <link rel="stylesheet" href="/CSS/style2.css" media="screen" meta="utf-8"/>
     <script src="jsindex.js"></script>
-    <title>Hello world</title>
+    <title>Top 14 match shedule</title>
 </head>
 <body>
-<h1>Hello world</h1>
+<header>
+    <img src="Top14.jpg" alt="logo top14"/>
+</header>
+
+<label for="team">Choose a Team:</label>
+<select id="team" name="teamlist" form="team">
+    <option value="Racing Métro 92">Racing Métro 92</option>
+    <option value="ASM Clermont Auve">ASM Clermont Auve</option>
+    <option value="Aviron Bayonnais">Aviron Bayonnais</option>
+    <option value="CA Brive">CA Brive</option>
+    <option value="Castres Olympique">Castres Olympique</option>
+    <option value="Lyon OU">Lyon OU</option>
+    <option value="Montpellier Héra">Montpellier Héra</option>
+    <option value="RC Toulonnais">RC Toulonnais</option>
+    <option value="Section Paloise">Section Paloise</option>
+    <option value="Stade Francais P">Stade Francais P</option>
+    <option value="Stade Rochelais">Stade Rochelais</option>
+    <option value="Stade Toulousain">Stade Toulousain</option>
+    <option value="Union Bordeaux B">Union Bordeaux B</option>
+    <option value="USA Perpignan">USA Perpignan</option>
+
+</select>
+
+<button onclick="search_team()">Search</button>
+<div id="result">
+</div>
+
 </body>
 </html>
