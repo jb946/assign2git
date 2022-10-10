@@ -24,15 +24,9 @@ async function get_event(team_name){
             }
         }
 
-        console.log(value.event[index].strFilename);
-
 
         //integration in the HTML
-        document.getElementById("result").innerHTML = value.event[index].strFilename;
+        document.getElementById("result").innerHTML = "Next match: "+value.event[index].strFilename + ", Date: "+value.event[index].dateEvent;
     });
-    //const data = await response.json();
-
-
-    //const obj = JSON.parse(data);
 }
 
